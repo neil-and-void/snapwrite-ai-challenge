@@ -17,7 +17,7 @@
 }
 
 .uploadWrapper {
-  padding: 3rem;
+  padding: 5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -26,6 +26,8 @@
 }
 
 .imageUploadLabel {
-  color: grey;
+  color: rgb(113 113 122);
+  font-weight: 500;
   cursor: pointer;
+  font-size: 0.9rem;
 }

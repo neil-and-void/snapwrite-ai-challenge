@@ -44,7 +44,7 @@ const ImageUpload = () => {
       <input
         type="file"
         id="file"
-        style={{ display: 'none' }} // hide this in ui, just need for file input API
+        style={{ display: 'none' }} // hide this in ui, just need ref for file input API
         ref={hiddenFileInput}
         onChange={handleChange}
         accept="image/png, image/jpeg"

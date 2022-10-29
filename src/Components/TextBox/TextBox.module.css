@@ -5,12 +5,14 @@
 }
 
 .textBoxHeader {
-  box-shadow: 0 2px 2px 0px rgb(246, 255, 0);
+  box-shadow: 0 2px 2px 0px #e8fb0a;
   font-size: 14px;
   padding: 1rem;
   border-bottom: 1px solid #f0f0f0;
   position: relative;
   z-index: 999;
+  font-weight: 500;
+  color: rgb(31 41 55);
 }
 
 .textArea {
