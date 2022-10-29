@@ -1,0 +1,22 @@
+.textBox {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 0.5rem;
+  padding-bottom: 3rem;
+}
+
+.textBoxHeader {
+  box-shadow: 0 2px 2px 0px rgb(246, 255, 0);
+  font-size: 14px;
+  padding: 1rem;
+  border-bottom: 1px solid #f0f0f0;
+  position: relative;
+  z-index: 999;
+}
+
+.textArea {
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  resize: none;
+  border-bottom: 1px solid #f0f0f0;
+}

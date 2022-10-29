@@ -1,0 +1,31 @@
+.imageUpload {
+  border-radius: 0.5rem;
+  aspect-ratio: 1/1;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+  aspect-ratio: inherit;
+}
+
+.uploadWrapper {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.imageUploadLabel {
+  color: grey;
+  cursor: pointer;
+}
